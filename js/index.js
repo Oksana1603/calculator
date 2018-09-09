@@ -29,7 +29,7 @@ performMath.addEventListener('click', () => {
     }
 const section = document.querySelector('section');
 const div = document.createElement('div');
-section.appendChild(document.createTextNode('Your answer is '+ answer) );
+section.appendChild(document.createTextNode('Your answer is '+ answer+ '.'+'\n') );
 
 
 });
