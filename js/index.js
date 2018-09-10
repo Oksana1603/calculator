@@ -1,15 +1,15 @@
-var performMath = document.getElementById('cal');
-var form = document.getElementById('form');
+const performMath = document.getElementById('cal');
+const form = document.getElementById('form');
 
 performMath.addEventListener('click', () => {
 
 
-    var func = form.func.value;
-    var num1 = form.num1.value;
-    var num2 = form.num2.value;
+    let func = form.func.value;
+    let num1 = form.num1.value;
+    let num2 = form.num2.value;
     //console.log(func, num1, num2);
     event.preventDefault();
-    var answer = '';
+    let answer = '';
     switch(func){
      case "+":    
         answer = (parseFloat(num1))+(parseFloat(num2));
